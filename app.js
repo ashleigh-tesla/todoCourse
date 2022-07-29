@@ -27,13 +27,13 @@ const addTodo = (event) => {
 
     // CHECK MARK BUTTON
     const completedButton = document.createElement("button")
-    completedButton.innerHTML = '<i class="fas fa-check">- ></i>'
+    completedButton.innerHTML = '<i class="fas fa-check"></i>'
     completedButton.classList.add("complete-btn")
     todoDiv.appendChild(completedButton)
 
     // TRASH BUTTON
     const trashButton = document.createElement("button")
-    trashButton.innerHTML = '<i class="fas fa-trash">= >></i>'
+    trashButton.innerHTML = '<i class="fas fa-trash"></i>'
     trashButton.classList.add("trash-btn")
     todoDiv.appendChild(trashButton)
 
@@ -128,13 +128,13 @@ const getTodos = () => {
 
         // CHECK MARK BUTTON
         const completedButton = document.createElement("button")
-        completedButton.innerHTML = '<i class="fas fa-check">- ></i>'
+        completedButton.innerHTML = '<i class="fas fa-check"></i>'
         completedButton.classList.add("complete-btn")
         todoDiv.appendChild(completedButton)
 
         // TRASH BUTTON
         const trashButton = document.createElement("button")
-        trashButton.innerHTML = '<i class="fas fa-trash">= >></i>'
+        trashButton.innerHTML = '<i class="fas fa-trash"></i>'
         trashButton.classList.add("trash-btn")
         todoDiv.appendChild(trashButton)
 
